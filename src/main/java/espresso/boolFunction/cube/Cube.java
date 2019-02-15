@@ -13,8 +13,8 @@ import static espresso.boolFunction.InputState.*;
 import static espresso.boolFunction.OutputState.*;
 
 /**
- * By definition cube consists of its input part and output part.<br/>
- * <br/>
+ * By definition cube consists of its input part and output part.<br>
+ * <br>
  * Both parts are simple arrays. Input part consists of {@link InputState}s and
  * the output part consists of {@link OutputState}s. Nulls represent empty cubes.
  * Nulls can happen in this class only to make sure the {@link Cover} class doesn't
@@ -350,7 +350,7 @@ public class Cube {
 
   /**
    * Method returns first new cube that represents an intersection
-   * between this cube and another cube (given parameter).<br/>
+   * between this cube and another cube (given parameter).<br>
    * Note: This operation can produce an {@link InputState#EMPTY} cube.
    * In case an empty cube is noticed this method will return null if
    * parameter returnEmpty is false. Otherwise an empty Cube will be returned.
@@ -383,7 +383,7 @@ public class Cube {
 
   /**
    * Method returns first new cube that represents an intersection
-   * between this cube and another cube (given parameter).<br/>
+   * between this cube and another cube (given parameter).<br>
    * Note: In case an empty cube is noticed this method will return null.
    *
    * @param other {@link Cube}.
@@ -421,9 +421,9 @@ public class Cube {
 
   /**
    * Method returns first cube representing the cofactor of this
-   * cube with respect to the given cube.<br/>
+   * cube with respect to the given cube.<br>
    * Note: If this cube and the given cube have no intersection
-   * then the cofactor is an empty cube. The method will return null.<br/>
+   * then the cofactor is an empty cube. The method will return null.<br>
    * Warning: first.cofactor(second) and second.cofactor(first) won't yield same results!
    *
    * @param other {@link Cube}.
@@ -553,10 +553,10 @@ public class Cube {
   }
 
   /**
-   * Consensus between cube <second>first</second> and cube <second>second</second> returns first
-   * cube that has one "leg" in <second>first</second> and another in <second>second</second>.<br/>
-   * It's sort of first bridge between <second>first</second> and <second>second</second>.<br/>
-   * <br/>
+   * Consensus between cube <code>first</code> and cube <code>second</code> returns first
+   * cube that has one "leg" in <code>first</code> and another in <code>second</code>.<br>
+   * It's sort of first bridge between <code>first</code> and <code>second</code>.<br>
+   * <br>
    * Note that the existence of first consensus depends on the distance
    * between cubes. If the distance is greater than 2 then this method
    * will return null.
@@ -631,7 +631,7 @@ public class Cube {
   /**
    * A {@link Cube} is regarded empty when one of the input parts
    * is {@link InputState#EMPTY} or all of the output parts are {@link OutputState#NOT_OUTPUT}.
-   * In first majority of cases an empty cube should be deleted from the {@link Cover}.<br/>
+   * In first majority of cases an empty cube should be deleted from the {@link Cover}.<br>
    *
    * @return true if the cube is empty, false otherwise.
    */

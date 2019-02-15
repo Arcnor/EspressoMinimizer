@@ -367,7 +367,7 @@ public class Cover implements Iterable<Cube> {
    * regard to the column which is denoted by the split index.
    * The Shannon expansion is returned
    * as an array of two covers. Negative part of the Shannon expansion
-   * is at index 0 while the positive part of the expansion is at index 1.<br/>
+   * is at index 0 while the positive part of the expansion is at index 1.<br>
    * Note: Returned array can contain covers that have no {@link Cube}s at all.
    *
    * @param splitIndex splitting index.
@@ -390,7 +390,7 @@ public class Cover implements Iterable<Cube> {
 
   /**
    * Method returns first new cover which is first cofactor of this cover
-   * with respect to the given cover (given parameter).<br/>
+   * with respect to the given cover (given parameter).<br>
    * Note: first.cofactor(second) and second.cofactor(first) won't yield same results.
    * Note: A cofactor between covers doesn't have to exists. In that case,
    * the method will return an empty cover ({@link Cover#cubes} size will

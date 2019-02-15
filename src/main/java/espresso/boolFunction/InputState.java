@@ -92,10 +92,10 @@ public enum InputState {
 
   /**
    * Method tells whether this {@link InputState} contains the other
-   * {@link InputState} (given parameter).<br/>
-   * <br/>
+   * {@link InputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * strictly contains or doesn't contain the given parameter.<br/>
+   * strictly contains or doesn't contain the given parameter.<br>
    * For general containment refer to {@link InputState#generalContains(InputState)}.
    *
    * @param other {@link InputState}.
@@ -108,10 +108,10 @@ public enum InputState {
 
   /**
    * Method tells whether this {@link InputState} strictly contains the other
-   * {@link InputState} (given parameter).<br/>
-   * <br/>
+   * {@link InputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * contains or doesn't contain the given parameter.<br/>
+   * contains or doesn't contain the given parameter.<br>
    * For general containment refer to {@link InputState#generalContains(InputState)}.
    *
    * @param other {@link InputState}.
@@ -124,10 +124,10 @@ public enum InputState {
 
   /**
    * Method tells whether this {@link InputState} doesn't contain the other
-   * {@link InputState} (given parameter).<br/>
-   * <br/>
+   * {@link InputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * contains or strictly contains the given parameter.<br/>
+   * contains or strictly contains the given parameter.<br>
    * For general containment refer to {@link InputState#generalContains(InputState)}.
    *
    * @param other {@link InputState}.
@@ -140,8 +140,8 @@ public enum InputState {
 
   /**
    * Method tells whether this {@link InputState} contains OR strictly contains
-   * the other {@link InputState} (given parameter).<br/>
-   * <br/>
+   * the other {@link InputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object does not
    * contain the given parameter at all. Among all containment methods this
    * is the intuitive one.

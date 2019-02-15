@@ -13,7 +13,7 @@ final public class CoverUtility {
   /**
    * Given two subcovers obtained by the Shannon expansion with respect to the
    * given {@link Cube}, this method computes first new {@link Cover}. A cover obtained
-   * by merging the two subcovers.<br/>
+   * by merging the two subcovers.<br>
    * Note: If the boolean flag in the method is false then this method becomes
    * mergeWithIdentity.
    *

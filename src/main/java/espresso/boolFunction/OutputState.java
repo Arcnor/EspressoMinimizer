@@ -63,10 +63,10 @@ public enum OutputState {
 
   /**
    * Method tells whether this {@link OutputState} contains the other
-   * {@link OutputState} (given parameter).<br/>
-   * <br/>
+   * {@link OutputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * strictly contains or doesn't contain the given parameter.<br/>
+   * strictly contains or doesn't contain the given parameter.<br>
    * For general containment refer to {@link OutputState#generalContains(OutputState)}.
    *
    * @param other {@link OutputState}.
@@ -79,10 +79,10 @@ public enum OutputState {
 
   /**
    * Method tells whether this {@link OutputState} strictly contains the other
-   * {@link OutputState} (given parameter).<br/>
-   * <br/>
+   * {@link OutputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * strictly contains or doesn't contain the given parameter.<br/>
+   * strictly contains or doesn't contain the given parameter.<br>
    * For general containment refer to {@link OutputState#generalContains(OutputState)}.
    *
    * @param other {@link OutputState}.
@@ -95,10 +95,10 @@ public enum OutputState {
 
   /**
    * Method tells whether this {@link OutputState} doesn't contain the other
-   * {@link OutputState} (given parameter).<br/>
-   * <br/>
+   * {@link OutputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object either
-   * strictly contains or doesn't contain the given parameter.<br/>
+   * strictly contains or doesn't contain the given parameter.<br>
    * For general containment refer to {@link OutputState#generalContains(OutputState)}.
    *
    * @param other {@link OutputState}.
@@ -111,8 +111,8 @@ public enum OutputState {
 
   /**
    * Method tells whether this {@link OutputState} contains OR strictly contains
-   * the other {@link OutputState} (given parameter).<br/>
-   * <br/>
+   * the other {@link OutputState} (given parameter).<br>
+   * <br>
    * Note: If the method returns false then that means this object does not
    * contain the given parameter at all. Among all containment methods this
    * is the intuitive one.
