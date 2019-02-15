@@ -1,4 +1,4 @@
-package examples;
+package espresso;
 
 import espresso.boolFunction.Cover;
 import espresso.boolFunction.InputState;
