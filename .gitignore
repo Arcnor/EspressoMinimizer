@@ -10,3 +10,5 @@ EspressoMinimizer.iml
 EspressoMinimizer.userlibraries
 EspressoMinimizer.zip
 TODO.txt
+.gradle/
+/build/
